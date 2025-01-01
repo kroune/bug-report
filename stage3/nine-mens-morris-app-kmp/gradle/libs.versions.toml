@@ -1,0 +1,50 @@
+[versions]
+agp = "8.7.3"
+android-compileSdk = "34"
+android-minSdk = "24"
+android-targetSdk = "34"
+androidx-activityCompose = "1.9.3"
+androidx-lifecycle = "2.8.4"
+compose-plugin = "1.7.1"
+filekitCompose = "0.8.8"
+kotlin = "2.1.0"
+kotlinx-coroutines = "1.9.0"
+ktor = "3.0.0"
+coroutines = "1.9.0"
+decompose = "3.3.0-alpha02"
+kotlinxSerializationJson = "1.7.3"
+multiplatformSettings = "1.2.0"
+ninemensmorris = "1.0.2"
+uiTestJunit4Android = "1.7.6"
+roborazzi = "1.38.0"
+
+[libraries]
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "androidx-activityCompose" }
+androidx-lifecycle-viewmodel = { group = "org.jetbrains.androidx.lifecycle", name = "lifecycle-viewmodel", version.ref = "androidx-lifecycle" }
+androidx-lifecycle-runtime-compose = { group = "org.jetbrains.androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "androidx-lifecycle" }
+androidx-ui-test-junit4-android = { module = "androidx.compose.ui:ui-test-junit4-android", version.ref = "uiTestJunit4Android" }
+androidx-ui-test-manifest = { module = "androidx.compose.ui:ui-test-manifest", version.ref = "uiTestJunit4Android" }
+filekit-compose = { module = "io.github.vinceglb:filekit-compose", version.ref = "filekitCompose" }
+kotlinx-coroutines-swing = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-swing", version.ref = "kotlinx-coroutines" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
+ktor-client-core = { group = "io.ktor", name = "ktor-client-core", version.ref = "ktor" }
+ktor-client-cio = { group = "io.ktor", name = "ktor-client-cio", version.ref = "ktor" }
+ktor-client-js = { group = "io.ktor", name = "ktor-client-js", version.ref = "ktor" }
+
+decompose = { group = "com.arkivanov.decompose", name = "decompose", version.ref = "decompose" }
+kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinxSerializationJson" }
+decompose-jetbrains = { group = "com.arkivanov.decompose", name = "extensions-compose", version.ref = "decompose" }
+ktor-serialization-kotlinx-json = { group = "io.ktor", name = "ktor-serialization-kotlinx-json", version.ref = "ktor" }
+multiplatform-settings = { group = "com.russhwolf", name = "multiplatform-settings", version.ref = "multiplatformSettings" }
+multiplatform-settings-no-arg = { group = "com.russhwolf", name = "multiplatform-settings-no-arg", version.ref = "multiplatformSettings" }
+ninemensmorris = { group = "io.github.kroune", name = "nineMensMorris", version.ref = "ninemensmorris" }
+androidx-compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling"}
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+androidLibrary = { id = "com.android.library", version.ref = "agp" }
+jetbrainsCompose = { id = "org.jetbrains.compose", version.ref = "compose-plugin" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+kotlinMultiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+kotlinSerialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+roborazzi = { id = "io.github.takahirom.roborazzi", version.ref = "roborazzi"}
