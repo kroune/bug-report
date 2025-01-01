@@ -1,0 +1,32 @@
+kotlin version: 2.1.0
+error message: org.jetbrains.kotlin.backend.common.CompilationException: Back-end: Please report this problem https://kotl.in/issue
+Details: Can't link symbol ic#64:androidx.compose.ui.layout/ApproachMeasureScope.layout|layout(kotlin.Int;kotlin.Int;kotlin.collections.Map<androidx.compose.ui.layout.AlignmentLine,kotlin.Int>;kotlin.Function1<androidx.compose.ui.layout.Placeable.PlacementScope,kotlin.Unit>){}[0]-8
+	at org.jetbrains.kotlin.backend.common.CompilationExceptionKt.compilationException(CompilationException.kt:106)
+	at org.jetbrains.kotlin.backend.wasm.ir2wasm.WasmCompiledModuleFragmentKt.bind(WasmCompiledModuleFragment.kt:657)
+	at org.jetbrains.kotlin.backend.wasm.ir2wasm.WasmCompiledModuleFragment.bindFileFragments(WasmCompiledModuleFragment.kt:497)
+	at org.jetbrains.kotlin.backend.wasm.ir2wasm.WasmCompiledModuleFragment.bindUnboundSymbols(WasmCompiledModuleFragment.kt:470)
+	at org.jetbrains.kotlin.backend.wasm.ir2wasm.WasmCompiledModuleFragment.linkWasmCompiledFragments(WasmCompiledModuleFragment.kt:211)
+	at org.jetbrains.kotlin.backend.wasm.WasmCompilerKt.compileWasm-quGr1d0(wasmCompiler.kt:163)
+	at org.jetbrains.kotlin.backend.wasm.WasmCompilerKt.compileWasm-quGr1d0$default(wasmCompiler.kt:141)
+	at org.jetbrains.kotlin.cli.js.K2JSCompiler.doExecute(K2JSCompiler.kt:377)
+	at org.jetbrains.kotlin.cli.js.K2JSCompiler.doExecute(K2JSCompiler.kt:105)
+	at org.jetbrains.kotlin.cli.common.CLICompiler.execImpl(CLICompiler.kt:102)
+	at org.jetbrains.kotlin.cli.common.CLICompiler.exec(CLICompiler.kt:316)
+	at org.jetbrains.kotlin.daemon.CompileServiceImpl.compile(CompileServiceImpl.kt:1554)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:598)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:844)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:721)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:720)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
