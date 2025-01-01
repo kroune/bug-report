@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="composeApp-desktop" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bc68d513-bee3-4a3f-bff4-e9243afc329e" name="Changes" comment="may be fixed ios building">
+      <change beforePath="$PROJECT_DIR$/composeApp/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composeApp/src/commonMain/composeResources/drawable/logged_in.xml" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/src/commonMain/composeResources/drawable/logged_in.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composeApp/src/commonMain/composeResources/drawable/no_account.xml" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/src/commonMain/composeResources/drawable/no_account.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/kroune/nine_mens_morris_kmp_app/App.kt" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/kroune/nine_mens_morris_kmp_app/App.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/kroune/nine_mens_morris_kmp_app/common/Common.kt" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/kroune/nine_mens_morris_kmp_app/common/Common.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/kroune/nine_mens_morris_kmp_app/navigation/RootComponent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/kroune/nine_mens_morris_kmp_app/navigation/RootComponent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/kroune/nine_mens_morris_kmp_app/screen/other/WelcomeScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/kroune/nine_mens_morris_kmp_app/screen/other/WelcomeScreen.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=/home/olowo/.android/avd/Medium_Phone_API_30_2.avd)]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/composeApp">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="nineMensMorrisAppKMP" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="nineMensMorrisAppKMP" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="nineMensMorrisAppKMP" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="nineMensMorrisAppKMP" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="kotlin browser" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="$USER_HOME$/keystore.jks" />
+    <option name="KEY_ALIAS" value="upload" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="v1.0.0" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kroune&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kroune/nine-mens-morris-app-kmp&quot;,
+    &quot;accountId&quot;: &quot;f481d502-f643-4f0d-a221-36870fe7726f&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2nwKkmyUH5YRphhe5HwHythwA6C" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Android App.nineMensMorrisAppKMP.composeApp.executor&quot;: &quot;Run&quot;,
+    &quot;ApkExportedModule&quot;: &quot;nineMensMorrisAppKMP.composeApp&quot;,
+    &quot;Gradle.AppStartAnimationScreenTest.delayedTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AppStartAnimationScreenTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AppStartAnimationScreenTest.myTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AppStartAnimationScreenTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.main [desktop].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [assembleDesktopMainResources].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [assembleRelease].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [build asseble].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [bundleDebugResources].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [checkRuntime].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [collectReleaseDependencies].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [compileReleaseSources].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [composeApp:build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [composeApp:connectedAndroidTest].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [composeApp:desktopJar].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [composeApp:desktopTest].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [composeApp:wasmJsBrowserDistribution].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [configureDesktopPreviewDesktop].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [createDistributable].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [createReleaseDistributable].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [desktopJar].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [desktopMainClasses].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [desktopRun].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [desktopTest].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [flattenJars].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [flattenReleaseJars].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [kotlinStoreYarnLock].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [kotlinUpgradeYarnLock].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [packageDeb].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [packageDistributionForCurrentOS].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [packageDmg].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [packageExe].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [packageMsi].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [packageReleaseDeb].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [packageReleaseDistributionForCurrentOS].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [packageReleaseDmg].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [packageReleaseExe].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [packageReleaseUberJarForCurrentOS].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [recordRoborazziRelease].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [runDistributable].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [runJvmMain].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [runReleaseDistributable].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [runRelease].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [run].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [test].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [validateScreenshotTest].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [verifyRoborazziRelease].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [wasmJsBrowserDevelopmentExecutableDistribution].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [wasmJsBrowserDevelopmentRun].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [wasmJsBrowserDevelopmentWebpack].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [wasmJsBrowserDistribution].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [wasmJsBrowserRun].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [wasmJsBrowserWebpack].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp [wasmJsTest].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp:composeApp [assembleRelease].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp:composeApp [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp:composeApp [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp:composeApp [run].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp:composeApp [wasmJsBrowserDistribution].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp:composeApp [wasmJsBrowserRun].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.nine-mens-morris-app-kmp:composeApp [wasmJsRun].executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.composeApp-desktop.jar.executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.composeApp-metadata.jar.executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.nineMensMorris-linux-x64-1.0.1-release.jar.executor&quot;: &quot;Run&quot;,
+    &quot;KotlinClassFindUsagesOptions.isFieldsUsages&quot;: &quot;true&quot;,
+    &quot;KotlinClassFindUsagesOptions.isMethodsUsages&quot;: &quot;true&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-Statistic Notification Group&quot;: &quot;Statistic&quot;,
+    &quot;Notification.DoNotAsk-Statistic Notification Group&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;com.android.tools.idea.streaming.zoom.toolbar.visible&quot;: &quot;false&quot;,
+    &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
+    &quot;external.system.has.shared.sources&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;v1.0.1&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/olowo/.gradle/caches/modules-2/files-2.1/com.arkivanov.decompose/extensions-compose-jvm/3.3.0-alpha02/d2e9dc9ad45a2a91a5a6b127cc013f2dd88368fd/extensions-compose-jvm-3.3.0-alpha02.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Dependencies&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;recommended.upgrade.last.time.stamp&quot;: &quot;1735230524740&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.tabnineCommon.userSettings.AppSettingsConfigurable&quot;,
+    &quot;show.do.not.copy.http.proxy.settings.to.gradle&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Default Config" />
+    <option name="BUILD_VARIANTS_TAB" value="Build Types" />
+    <option name="LAST_EDITED_SIGNING_CONFIG" value="release" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/composeApp/src/commonMain/composeResources/drawable" />
+      <recent name="$PROJECT_DIR$/composeApp/src/commonTest/kotlin" />
+      <recent name="$PROJECT_DIR$/demo" />
+      <recent name="$PROJECT_DIR$/composeApp/src/desktopMain/resources" />
+      <recent name="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/kroune/nine_mens_morris_kmp_app/screen/tutorial/elements" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/composeApp/src/commonMain/composeResources/drawable" />
+      <recent name="$PROJECT_DIR$/composeApp" />
+      <recent name="$PROJECT_DIR$/composeApp/src/commonTest/kotlin/com/kroune/nine_mens_morris_kmp_app" />
+      <recent name="$PROJECT_DIR$/composeApp/src/commonTest/kotlin/com/kroune" />
+      <recent name="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/kroune/nine_mens_morris_kmp_app/component/other/appStartAnimationComponent" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle composeApp:wasmJsBrowserDistribution" />
+      <command value="gradle composeApp:desktopJar" />
+      <command value="gradle desktopMainClasses" />
+      <command value="gradle configureDesktopPreviewDesktop" />
+      <command value="gradle composeApp:build" />
+      <command value="gradle packageDistributionForCurrentOS" />
+      <command value="gradle assembleRelease" />
+      <command value="gradle desktopJar" />
+      <command value="gradle collectReleaseDependencies" />
+      <command value="gradle composeApp:desktopTest" />
+      <command value="gradle desktopTest" />
+      <command value="gradle composeApp:connectedAndroidTest" />
+      <command value="gradle build -x allTests" />
+      <command value="gradle build -x connectedAndroidTest asseble" />
+      <command value="gradle build -x connectedAndroidTest -x wasmJsTest" />
+      <command value="gradle kotlinStoreYarnLock" />
+      <command value="gradle wasmJsTest" />
+      <command value="gradle clean" />
+      <command value="gradle kotlinUpgradeYarnLock" />
+      <command value="gradle packageReleaseUberJarForCurrentOS" />
+      <command value="gradle wasmJsBrowserDistribution" />
+      <command value="gradle assembleDesktopMainResources" />
+      <command value="gradle bundleDebugResources" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.nine-mens-morris-app-kmp [wasmJsBrowserRun]">
+    <configuration name="nineMensMorrisAppKMP.composeApp" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="nineMensMorrisAppKMP.composeApp.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="RESTORE_ENABLED" value="false" />
+      <option name="RESTORE_FILE" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nine-mens-morris-app-kmp [assembleDesktopMainResources]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assembleDesktopMainResources" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="nine-mens-morris-app-kmp [bundleDebugResources]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bundleDebugResources" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="nine-mens-morris-app-kmp [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="nine-mens-morris-app-kmp [wasmJsBrowserDistribution]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="wasmJsBrowserDistribution" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="nine-mens-morris-app-kmp [wasmJsBrowserRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="wasmJsBrowserRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Android App.nineMensMorrisAppKMP.composeApp" />
+      <item itemvalue="Gradle.nine-mens-morris-app-kmp [assembleDesktopMainResources]" />
+      <item itemvalue="Gradle.nine-mens-morris-app-kmp [bundleDebugResources]" />
+      <item itemvalue="Gradle.nine-mens-morris-app-kmp [clean]" />
+      <item itemvalue="Gradle.nine-mens-morris-app-kmp [wasmJsBrowserDistribution]" />
+      <item itemvalue="Gradle.nine-mens-morris-app-kmp [wasmJsBrowserRun]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.nine-mens-morris-app-kmp [wasmJsBrowserRun]" />
+        <item itemvalue="Gradle.nine-mens-morris-app-kmp [clean]" />
+        <item itemvalue="Gradle.nine-mens-morris-app-kmp [bundleDebugResources]" />
+        <item itemvalue="Gradle.nine-mens-morris-app-kmp [assembleDesktopMainResources]" />
+        <item itemvalue="Gradle.nine-mens-morris-app-kmp [wasmJsBrowserDistribution]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="StandaloneScriptsStorage">
+    <option name="files">
+      <set>
+        <option value="$PROJECT_DIR$/build.gradle.kts" />
+        <option value="$PROJECT_DIR$/composeApp/build.gradle.kts" />
+      </set>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc68d513-bee3-4a3f-bff4-e9243afc329e" name="Changes" comment="" />
+      <created>1729878844223</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729878844223</updated>
+      <workItem from="1732814815841" duration="562000" />
+      <workItem from="1735030493266" duration="2889000" />
+      <workItem from="1735123678686" duration="22000" />
+      <workItem from="1735480469968" duration="815000" />
+      <workItem from="1735487498822" duration="30000" />
+      <workItem from="1735643550763" duration="1244000" />
+      <workItem from="1735671118556" duration="8000" />
+    </task>
+    <task id="LOCAL-00018" summary="major ui improvements &amp; now you can use back key on desktops and browsers">
+      <option name="closed" value="true" />
+      <created>1732741983935</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1732741983936</updated>
+    </task>
+    <task id="LOCAL-00019" summary="ui improvements &amp; small bug fixes &amp; now ci/cd also signs android application">
+      <option name="closed" value="true" />
+      <created>1732813186768</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1732813186768</updated>
+    </task>
+    <task id="LOCAL-00020" summary="fixed ci">
+      <option name="closed" value="true" />
+      <created>1732813787654</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1732813787654</updated>
+    </task>
+    <task id="LOCAL-00021" summary="fixed ci">
+      <option name="closed" value="true" />
+      <created>1732813886197</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1732813886197</updated>
+    </task>
+    <task id="LOCAL-00022" summary="ci">
+      <option name="closed" value="true" />
+      <created>1732820432789</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1732820432789</updated>
+    </task>
+    <task id="LOCAL-00023" summary="ci">
+      <option name="closed" value="true" />
+      <created>1732821111998</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1732821111998</updated>
+    </task>
+    <task id="LOCAL-00024" summary="fixed ci">
+      <option name="closed" value="true" />
+      <created>1732822231793</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1732822231793</updated>
+    </task>
+    <task id="LOCAL-00025" summary="fixes desktop builds, but I don't know why">
+      <option name="closed" value="true" />
+      <created>1732828793067</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1732828793067</updated>
+    </task>
+    <task id="LOCAL-00026" summary="added more logic to viewing game tutorial">
+      <option name="closed" value="true" />
+      <created>1732836857271</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1732836857271</updated>
+    </task>
+    <task id="LOCAL-00027" summary="small change">
+      <option name="closed" value="true" />
+      <created>1732836946866</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1732836946866</updated>
+    </task>
+    <task id="LOCAL-00028" summary="small change">
+      <option name="closed" value="true" />
+      <created>1732992233500</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1732992233500</updated>
+    </task>
+    <task id="LOCAL-00029" summary="more ui fixes/improvements &amp; now you can upload pictures &amp; now we handle errors in the online game">
+      <option name="closed" value="true" />
+      <created>1733254199300</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1733254199300</updated>
+    </task>
+    <task id="LOCAL-00030" summary="small fix">
+      <option name="closed" value="true" />
+      <created>1733343143034</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1733343143034</updated>
+    </task>
+    <task id="LOCAL-00031" summary="improve ci">
+      <option name="closed" value="true" />
+      <created>1733597842291</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1733597842291</updated>
+    </task>
+    <task id="LOCAL-00032" summary="improve ci">
+      <option name="closed" value="true" />
+      <created>1733610351626</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1733610351626</updated>
+    </task>
+    <task id="LOCAL-00033" summary="pls work now">
+      <option name="closed" value="true" />
+      <created>1733612429278</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1733612429279</updated>
+    </task>
+    <task id="LOCAL-00034" summary="pls work now">
+      <option name="closed" value="true" />
+      <created>1733612666152</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1733612666153</updated>
+    </task>
+    <task id="LOCAL-00035" summary="added icon to the macos">
+      <option name="closed" value="true" />
+      <created>1733656863676</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1733656863676</updated>
+    </task>
+    <task id="LOCAL-00036" summary="now app works better with small screen sizes">
+      <option name="closed" value="true" />
+      <created>1733659159634</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1733659159634</updated>
+    </task>
+    <task id="LOCAL-00037" summary="back handler">
+      <option name="closed" value="true" />
+      <created>1733662054229</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1733662054229</updated>
+    </task>
+    <task id="LOCAL-00038" summary="updated README.md">
+      <option name="closed" value="true" />
+      <created>1733697230232</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1733697230232</updated>
+    </task>
+    <task id="LOCAL-00039" summary="bumped versions">
+      <option name="closed" value="true" />
+      <created>1733697572415</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1733697572415</updated>
+    </task>
+    <task id="LOCAL-00040" summary="fixed scaling on different platforms &amp; added a few compiler optimizations">
+      <option name="closed" value="true" />
+      <created>1734037106641</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1734037106641</updated>
+    </task>
+    <task id="LOCAL-00041" summary="upgraded to https">
+      <option name="closed" value="true" />
+      <created>1734289203589</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1734289203594</updated>
+    </task>
+    <task id="LOCAL-00042" summary="upgraded to https">
+      <option name="closed" value="true" />
+      <created>1734290649142</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1734290649142</updated>
+    </task>
+    <task id="LOCAL-00043" summary="added back handle to the web version">
+      <option name="closed" value="true" />
+      <created>1734444246661</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1734444246661</updated>
+    </task>
+    <task id="LOCAL-00044" summary="added back handle to the web version">
+      <option name="closed" value="true" />
+      <created>1734449987567</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1734449987567</updated>
+    </task>
+    <task id="LOCAL-00045" summary="improved ui">
+      <option name="closed" value="true" />
+      <created>1734450115321</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1734450115321</updated>
+    </task>
+    <task id="LOCAL-00046" summary="fixed analyze menu bug &amp; fixed highlighting when playing with bot &amp; fixed some ui issue in online game">
+      <option name="closed" value="true" />
+      <created>1734453580124</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1734453580124</updated>
+    </task>
+    <task id="LOCAL-00047" summary="updated README.md">
+      <option name="closed" value="true" />
+      <created>1734457371340</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1734457371340</updated>
+    </task>
+    <task id="LOCAL-00048" summary="ws -&gt; wss">
+      <option name="closed" value="true" />
+      <created>1734475211618</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1734475211618</updated>
+    </task>
+    <task id="LOCAL-00049" summary="loading animation">
+      <option name="closed" value="true" />
+      <created>1735032513553</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1735032513553</updated>
+    </task>
+    <task id="LOCAL-00050" summary="added jar exporting">
+      <option name="closed" value="true" />
+      <created>1735224126356</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1735224126356</updated>
+    </task>
+    <task id="LOCAL-00051" summary="added jar exporting">
+      <option name="closed" value="true" />
+      <created>1735224458289</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1735224458290</updated>
+    </task>
+    <task id="LOCAL-00052" summary="added jar exporting">
+      <option name="closed" value="true" />
+      <created>1735235154688</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1735235154689</updated>
+    </task>
+    <task id="LOCAL-00053" summary="fixed proguard">
+      <option name="closed" value="true" />
+      <created>1735235188770</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1735235188770</updated>
+    </task>
+    <task id="LOCAL-00054" summary="fixed proguard">
+      <option name="closed" value="true" />
+      <created>1735248971354</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1735248971354</updated>
+    </task>
+    <task id="LOCAL-00055" summary="small changes">
+      <option name="closed" value="true" />
+      <created>1735335177896</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1735335177897</updated>
+    </task>
+    <task id="LOCAL-00056" summary="ci/cd test">
+      <option name="closed" value="true" />
+      <created>1735388120895</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1735388120896</updated>
+    </task>
+    <task id="LOCAL-00057" summary="ci/cd test">
+      <option name="closed" value="true" />
+      <created>1735388645224</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1735388645224</updated>
+    </task>
+    <task id="LOCAL-00058" summary="update">
+      <option name="closed" value="true" />
+      <created>1735389770115</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1735389770115</updated>
+    </task>
+    <task id="LOCAL-00059" summary="update">
+      <option name="closed" value="true" />
+      <created>1735391047463</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1735391047463</updated>
+    </task>
+    <task id="LOCAL-00060" summary="update">
+      <option name="closed" value="true" />
+      <created>1735391411752</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1735391411752</updated>
+    </task>
+    <task id="LOCAL-00061" summary="fix ui test">
+      <option name="closed" value="true" />
+      <created>1735395264198</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1735395264198</updated>
+    </task>
+    <task id="LOCAL-00062" summary="update ci/cd">
+      <option name="closed" value="true" />
+      <created>1735399421616</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1735399421616</updated>
+    </task>
+    <task id="LOCAL-00063" summary="removed loading animation to a simple color for now">
+      <option name="closed" value="true" />
+      <created>1735409934257</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1735409934257</updated>
+    </task>
+    <task id="LOCAL-00064" summary="change ci">
+      <option name="closed" value="true" />
+      <created>1735510685025</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1735510685026</updated>
+    </task>
+    <task id="LOCAL-00065" summary="change ci">
+      <option name="closed" value="true" />
+      <created>1735510701373</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1735510701373</updated>
+    </task>
+    <task id="LOCAL-00066" summary="may be fixed ios building">
+      <option name="closed" value="true" />
+      <created>1735578120185</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1735578120185</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="v1.0.1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="small fix" />
+    <MESSAGE value="improve ci" />
+    <MESSAGE value="pls work now" />
+    <MESSAGE value="added icon to the macos" />
+    <MESSAGE value="now app works better with small screen sizes" />
+    <MESSAGE value="back handler" />
+    <MESSAGE value="bumped versions" />
+    <MESSAGE value="fixed scaling on different platforms &amp; added a few compiler optimizations" />
+    <MESSAGE value="upgraded to https" />
+    <MESSAGE value="added back handle to the web version" />
+    <MESSAGE value="improved ui" />
+    <MESSAGE value="fixed analyze menu bug &amp; fixed highlighting when playing with bot &amp; fixed some ui issue in online game" />
+    <MESSAGE value="updated README.md" />
+    <MESSAGE value="ws -&gt; wss" />
+    <MESSAGE value="loading animation" />
+    <MESSAGE value="added jar exporting" />
+    <MESSAGE value="fixed proguard" />
+    <MESSAGE value="small changes" />
+    <MESSAGE value="ci/cd test" />
+    <MESSAGE value="update" />
+    <MESSAGE value="fix ui test" />
+    <MESSAGE value="update ci/cd" />
+    <MESSAGE value="removed loading animation to a simple color for now" />
+    <MESSAGE value="change ci" />
+    <MESSAGE value="may be fixed ios building" />
+    <option name="LAST_COMMIT_MESSAGE" value="may be fixed ios building" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/kroune/nine_mens_morris_kmp_app/data/repository/source/remote/onlineGame/OnlineGameRepositoryImpl.kt</url>
+          <line>27</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/kroune/nine_mens_morris_kmp_app/data/repository/source/remote/onlineGame/OnlineGameRepositoryImpl.kt</url>
+          <line>26</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/composeApp/src/commonMain/kotlin/com/kroune/nine_mens_morris_kmp_app/navigation/RootComponent.kt</url>
+          <line>141</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-field">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-iosarm64/1.9.0/a68d3623081cbe7f30e4f9799b8db0831b83672c/kotlinx-coroutines-core-iosarm64-1.9.0-sources.jar!/commonMain/channels/BufferedChannel.kt</url>
+          <line>1761</line>
+          <properties myFieldName="receiveException" myClassName="kotlinx.coroutines.channels.BufferedChannel" />
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="kotlinx.coroutines.channels.BufferedChannel" memberName="bufferEnd$volatile" />
+        <PinnedItemInfo parentTag="kotlinx.coroutines.channels.BufferedChannel" memberName="closeHandler$volatile" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="AndroidRunConfigurationType">
+        <watch expression="it.first.gameEnded" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
