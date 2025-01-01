@@ -16,4 +16,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Run wasmJS
-        run: cd stage3/nine-mens-morris-app-kmp/ && ./gradlew wasmJsBrowserRun
+        run: |
+          cd stage3/nine-mens-morris-app-kmp/
+          ls -hlas
+          ./gradlew wasmJsBrowserRun
